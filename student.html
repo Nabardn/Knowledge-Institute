@@ -1,0 +1,143 @@
+<!--/*
+  Copyright (c) 2023 Nabard Muhammed
+  nabard.zeus@googlemail.com
+*/-->
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Knowledge Institute - said sadiq</title>
+	<link rel="icon" type="image/png" href="img/logo.png">
+	<!-- BACK TO TOP BUTTON -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+	<link rel="stylesheet" href="main.css"/>
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="student.css">
+	
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+		<!-- BACK TO TOP BUTTON -->
+		<a href="#" class="back-to-top">
+			<span class="material-icons">arrow_upward</span>
+		</a>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/logo.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">ماڵەوە</a></li>
+				<li><a href="teacher.html">مامۆستایان</a></li>
+				<li><a href="student.html" class="active">خویندکاران</a></li>
+				<li><a href="gallery.html">گەلەری</a></li>
+				<li><a href="address.html">ناونیشان</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+	<br><br><br><br><br><br><br>
+	<h2 style="text-align: center;">لەم بەشانەی خوارەوە نمرەکانت ببینە</h2>
+	<section id="experts">
+		<div class="expert-box">
+			<div class="profile">
+				<a href="login-form.html">
+					<img src="img/managment.jpeg" alt="" style="width: 200px; height: 200px;"></a>
+				<a href="login-form.html" style="text-decoration:none;color:rgb(0, 0, 0);">بەشی کارگێڕی</a>
+				<div class="pro-links">
+				</div>
+			</div>
+			<div class="profile">
+				<a href="login-form.html">
+					<img src="img/computer.jpeg" alt="" style="width: 200px; height: 200px;"></a>
+				<a href="login-form.html" style="text-decoration:none;color:rgb(0, 0, 0);">بەشی کۆمپیوتەر</a>
+
+				<div class="pro-links">
+
+				</div>
+			</div>
+			<div class="profile">
+				<a href="login-form.html">
+					<img src="img/oil.jpeg" alt="" style="width: 200px; height: 200px;"></a>
+				<a href="login-form.html" style="text-decoration:none;color:rgb(0, 0, 0);">بەشی نەوت و گاز</a>
+
+				<div class="pro-links">
+
+				</div>
+			</div>
+			<div class="profile">
+				<a href="login-form.html">
+					<img src="img/Accounting.webp" alt="" style="width: 200px; height: 200px;"></a>
+				<a href="login-form.html" style="text-decoration:none;color:rgb(0, 0, 0);">بەشی ژمێریاری</a>
+
+				<div class="pro-links">
+
+				</div>
+			</div>
+
+</section> 
+
+	<!-- Footer section starts from here -->
+	<style>
+		.footer-col ul {
+			text-align: right;
+		}
+	</style>
+<section id="footer-col">
+    <footer>
+</div>
+<div class="right-content">
+<!-- Right-aligned content goes here -->
+</div>
+        <div class="footer-col">
+            <h3>ناوەرۆک</h3>
+            <ul>
+                <li><a href="index.html" style="text-decoration:none;color:rgb(255, 255, 255);"> ماڵەوە</a></li>
+                <li><a href="teacher.html" style="text-decoration:none;color:rgb(255, 255, 255);"> مامۆستایان</a></li>
+                <li><a href="student.html" style="text-decoration:none;color:rgb(255, 255, 255);"> خوێندكاران</a></li>
+                <li><a href="gallery.html" style="text-decoration:none;color:rgb(255, 255, 255);"> گەلەری</a></li>
+                <li><a href="address.html" style="text-decoration:none;color:rgb(255, 255, 255);"> ناونیشان</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>
+                Copyright @ 2024 All rights reserved | by <a href="https://www.facebook.com/nabard.zeus" target="_blank">Nabard Muhammed</a>
+            </p>
+            <div class="pro-links">
+                <a href="https://www.facebook.com/Knowledgeinstitut" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</section>
+
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
